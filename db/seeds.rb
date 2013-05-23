@@ -55,39 +55,39 @@ Problem.create(number: 6,
 								guess_two: "work",
 								image: "/images/banana.png",
 								)
-=begin
+
 Problem.create(number: 7,
-								quote: "But you know what the worst part is? I _____.",
-								answer: "never learned to read",
-								guess_one: "never had a mother",
-								guess_two: "never drove a car",
-								image: "/images/read.png",
+								quote: "Okay, Lindsay, are you forgetting that I was a professional twice over - an analyst and a therapist. The world's first _____.",
+								answer: "analrapist",
+								guess_one: "analyst/therapist",
+								guess_two: "therapalyst",
+								image: "/images/analrapist.png",
 								)
 
 Problem.create(number: 8,
-								quote: "BENJAMIN: I'm thinking about giving Vanderhoff a weekly interview on the show. How would you feel about making a change? GARTH: _____.",
-								answer: "we fear change",
-								guess_one: "we hate Vanderhoff",
-								guess_two: "okay",
-								image: "/images/change.png",
+								quote: "It's a _____ Michael, what could possibly go wrong?",
+								answer: "jetpack",
+								guess_one: "break in",
+								guess_two: "prison",
+								image: "/images/jet.png",
 								)
 
 Problem.create(number: 9,
-								quote: "GUY: Wow. You're... amazing, dude. GARTH: _____.",
-								answer: "thanks, I like to play",
-								guess_one: "well I practice a lot",
-								guess_two: "drums are fun",
-								image: "/images/drums.png",
+								quote: "Excuse me, do these effectively _____?",
+								answer: "hide my thunder",
+								guess_one: "show my curves",
+								guess_two: "cover my jeans",
+								image: "/images/thunder.png",
 								)
 
 Problem.create(number: 10,
-								quote: "Yeah, it's like people only do things _____. And that's just really sad.",
-								answer: "because they get paid",
-								guess_one: "to get women",
-								guess_two: "so they can be famous",
-								image: "/images/paid.png",
+								quote: "Yeah, gonna need a _____ for when I'm on my hog and need to go into a controlled slide.",
+								answer: "leather jacket",
+								guess_one: "helmet",
+								guess_two: "rash guard",
+								image: "/images/hog.png",
 								)
-
+=begin
 Problem.create(number: 11,
 								quote: "BENJAMIN: it becomes that thing of calling all of their sparkling white \"champagne\", even though by definition it's not. WAYNE: Ah yes, it's a lot like _____.",
 								answer: "Star Trek: The Next Generation",
@@ -127,3 +127,5 @@ Problem.create(number: 15,
 								guess_two: "you look the part",
 								image: "/images/television.png",
 								)
+=end
+

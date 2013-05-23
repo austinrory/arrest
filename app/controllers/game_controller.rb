@@ -37,34 +37,34 @@ class GameController < ApplicationController
 	def finish
 
 		if (-100..0).include?(session[:s])
-			@char = "Benjamin Oliver"
+			@char = "Oscar Bluth"
 			@message = "You Suck!"
 		elsif (1..10).include?(session[:s])
-			@char = "Noah Vanderhoff"
+			@char = "Lucille Ostero"
 			@message = "You Suck!"
 		elsif (10..20).include?(session[:s])
-			@char = "Russell"
-			@message = "Boring."
+			@char = "Barry Zuckerkorn"
+			@message = "Meh."
 		elsif (21..30).include?(session[:s])
-			@char = "Stan Mikita"
-			@message = "Creepy."
+			@char = "Ann Veal"
+			@message = "Meh."
 		elsif (31..40).include?(session[:s])
-			@char = "Old Man Withers"
-			@message = "Creepy."
+			@char = "Tobias Funke"
+			@message = "Not Bad."
 		elsif (41..50).include?(session[:s])
-			@char = "Officer Khoharksi"
-			@message = "Cool!"
+			@char = "Lindsay Bluth"
+			@message = "Not Bad!"
 		elsif (51..60).include?(session[:s])
-			@char = "Alice Cooper"
-			@message = "Rock On!"
+			@char = "Buster Bluth"
+			@message = "Good Work!"
 		elsif (61..70).include?(session[:s])
-			@char = "Dream Girl"
+			@char = "Gob Bluth"
 			@message = "Awesome!"
 		elsif (71..80).include?(session[:s])
-			@char = "Cassandra"
-			@message = "You Really Wail!"
+			@char = "George Senior"
+			@message = "Nice!"
 		elsif (81..90).include?(session[:s])
-			@char = "Garth"
+			@char = "Bodysuit George Michael"
 			@message = "Party Time!"
 		elsif (91..100).include?(session[:s])
 			@char = "Michael Bluth"

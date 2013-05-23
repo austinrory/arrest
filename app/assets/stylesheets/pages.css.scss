@@ -21,7 +21,7 @@
 	padding:20px;
 	display:block;
 	position:fixed;
-	bottom:40px;
+	bottom:30px;
 	left: 50%;
 }
 
@@ -71,7 +71,7 @@
 /*                            											home 																						*/
 
 #home_back {
-	background-image:url(/images/wayne_garth.png); 
+	background-image:url(/images/cast.jpeg); 
 	background-size:cover;
 }
 
@@ -80,17 +80,17 @@
 /*                            											info 																						*/
 
 #info_back {
-	background-image:url(/images/airplane.png);
+	background-image:url(/images/pilot.png);
 	background-size:cover;
+}
+
+.text#info_text {
+	margin:300px auto 0 auto;
+	line-height:0.7;
 }
 
 
 /*                            											game																						*/
-
-#game_back {
-	background-image:url(/images/pralines.png);
-	background-size:cover;
-}
 
 form {
 	margin-top:20px;
@@ -136,14 +136,12 @@ span {
 	font-size:45px;
 }
 
-.text#finish {
-	margin-left:22%;
+.text#finish_text {
 	text-align:center;
 	width:50%;
 	background-color:rgba(0,0,0,0.4);
 	padding:30px 30px 10px 30px;
-	position:fixed;
-	bottom:160px;
+	margin:10px auto 0 auto;
 }
 
 /*                            											about																						*/
