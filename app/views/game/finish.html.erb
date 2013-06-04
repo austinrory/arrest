@@ -1,6 +1,6 @@
 <% provide :title, "Finish" %>
 
-<body style="background-image:url(/images/char/<%=@char.downcase.split[0]%>.png)">
+<body style="background-image:url(/images/char/<%=@char.downcase.split[0]%>.png), background-size:cover">
 
 <div class="text" id="finish_text">
 <p>You got <%= session[:s] %> points. <strong><%= @message %></strong> You earned the level of:</p>
